@@ -1,0 +1,17 @@
+GitHub Actions
+
+github-actions-demo/
+├── src/
+│   ├── index.js          # Calculator API server
+│   └── index.test.js     # Unit tests
+├── .github/
+│   └── workflows/
+│       ├── ci.yml              # Basic CI pipeline
+│       ├── ci-with-cache.yml   # CI with dependency caching
+│       ├── matrix.yml          # Multi-version testing
+│       ├── deploy.yml          # Deployment workflow
+│       ├── scheduled.yml       # Scheduled/cron jobs
+│       └── secrets-demo.yml    # Secrets & env variables
+├── package.json
+├── .gitignore
+└── README.md
