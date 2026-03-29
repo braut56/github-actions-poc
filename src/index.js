@@ -1,6 +1,6 @@
 /**
  * Simple Calculator API
- * Demo project for GitHub Actions tutorial    
+ * Demo project for GitHub Actions tutorial
  */
 
 const http = require('http');
